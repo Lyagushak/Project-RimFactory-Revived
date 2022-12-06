@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- common -->
+  <PRF.AutoMachineTool.MustInWall>Должно встраиваться в стену.</PRF.AutoMachineTool.MustInWall>
+  <PRF.AutoMachineTool.SelectOutputDirectionDesc>Определите точку выхода готовой продукции.  Готовая продукция будет размещена в зоне выхода или на подходящем складе, если зона выхода пересекается с уже существующим складом.</PRF.AutoMachineTool.SelectOutputDirectionDesc>
+                                                                                                                                                                                                                                                       
+
+  <PRF.AutoMachineTool.ForbidOutputItemLabel>Запретить выходящие предметы</PRF.AutoMachineTool.ForbidOutputItemLabel>
+  <PRF.AutoMachineTool.ForbidOutputItemDesc>Машина автоматически запретит выходящую продукцию для ручного перемещения поселенцами.</PRF.AutoMachineTool.ForbidOutputItemDesc>
+
+  <PRF.AutoMachineTool.OutputDirectionN>Север</PRF.AutoMachineTool.OutputDirectionN>
+  <PRF.AutoMachineTool.OutputDirectionNE>Северо-Восток</PRF.AutoMachineTool.OutputDirectionNE>
+  <PRF.AutoMachineTool.OutputDirectionE>Восток</PRF.AutoMachineTool.OutputDirectionE>
+  <PRF.AutoMachineTool.OutputDirectionSE>Юго-Восток</PRF.AutoMachineTool.OutputDirectionSE>
+  <PRF.AutoMachineTool.OutputDirectionS>Юг</PRF.AutoMachineTool.OutputDirectionS>
+  <PRF.AutoMachineTool.OutputDirectionSW>Юго-Запад</PRF.AutoMachineTool.OutputDirectionSW>
+  <PRF.AutoMachineTool.OutputDirectionW>Запад</PRF.AutoMachineTool.OutputDirectionW>
+  <PRF.AutoMachineTool.OutputDirectionNW>Северо-Запад</PRF.AutoMachineTool.OutputDirectionNW>
+
+  <PRF.AutoMachineTool.PlaceNotAllowed>Авторабочий должен быть направлен к рабочему столу и размещаться на рабочем месте.</PRF.AutoMachineTool.PlaceNotAllowed>
+
+  <PRF.AutoMachineTool.StatWorking>Работает. [{0} / {1} ({2} %)]</PRF.AutoMachineTool.StatWorking>
+  <PRF.AutoMachineTool.StatWorkingNotParam>Работает.</PRF.AutoMachineTool.StatWorkingNotParam>
+  <PRF.AutoMachineTool.StatReady>Готов.</PRF.AutoMachineTool.StatReady>
+  <PRF.AutoMachineTool.StatPlacing>Размещает. [pending placement {0}]</PRF.AutoMachineTool.StatPlacing>
+  <PRF.AutoMachineTool.PlacingSingle>Размещает {0}.</PRF.AutoMachineTool.PlacingSingle>
+
+  <PRF.AutoMachineTool.Priority>приоритет</PRF.AutoMachineTool.Priority>
+
+  <PRF.AutoMachineTool.OutputDirection>Точка выхода. [{0}]</PRF.AutoMachineTool.OutputDirection>
+  <PRF.AutoMachineTool.OutputDirection.N>Север</PRF.AutoMachineTool.OutputDirection.N>
+  <PRF.AutoMachineTool.OutputDirection.NE>Северо-Восток</PRF.AutoMachineTool.OutputDirection.NE>
+  <PRF.AutoMachineTool.OutputDirection.E>Восток</PRF.AutoMachineTool.OutputDirection.E>
+  <PRF.AutoMachineTool.OutputDirection.SE>Юго-Восток</PRF.AutoMachineTool.OutputDirection.SE>
+  <PRF.AutoMachineTool.OutputDirection.S>Юг</PRF.AutoMachineTool.OutputDirection.S>
+  <PRF.AutoMachineTool.OutputDirection.SW>Юго-Запад</PRF.AutoMachineTool.OutputDirection.SW>
+  <PRF.AutoMachineTool.OutputDirection.W>Запад</PRF.AutoMachineTool.OutputDirection.W>
+  <PRF.AutoMachineTool.OutputDirection.NW>Северо-Запад</PRF.AutoMachineTool.OutputDirection.NW>
+
+  <!-- PowerTab -->
+  <PRF.AutoMachineTool.SupplyPower.TabName>Разгон</PRF.AutoMachineTool.SupplyPower.TabName>
+  <PRF.AutoMachineTool.SupplyPower.Description>Потребление энергии для увеличения скорости работы</PRF.AutoMachineTool.SupplyPower.Description>
+  <PRF.AutoMachineTool.SupplyPower.DescriptionForRange>Потребление энергии для увеличения радиуса работы</PRF.AutoMachineTool.SupplyPower.DescriptionForRange>
+  <PRF.AutoMachineTool.SupplyPower.ValueLabelForSpeed>Энергия разгона для скорости ({0} W)</PRF.AutoMachineTool.SupplyPower.ValueLabelForSpeed>
+  <PRF.AutoMachineTool.SupplyPower.ValueLabelForRange>Энергия разгона для радиуса ({0} W)</PRF.AutoMachineTool.SupplyPower.ValueLabelForRange>
+  <PRF.AutoMachineTool.SupplyPower.SunLampText>Солнечная лампа(мощность:2000)</PRF.AutoMachineTool.SupplyPower.SunLampText>
+  <PRF.AutoMachineTool.SupplyPower.BreakDownLine_Start>Всего потребляется энергии:\nBase [{0}] + Скорость работы [{1}] + Радиус [{2}]</PRF.AutoMachineTool.SupplyPower.BreakDownLine_Start>
+  <PRF.AutoMachineTool.SupplyPower.BreakDownLine_Append> + {0} [{1}]</PRF.AutoMachineTool.SupplyPower.BreakDownLine_Append>
+  <PRF.AutoMachineTool.SupplyPower.BreakDownLine_End> = [{0} W]</PRF.AutoMachineTool.SupplyPower.BreakDownLine_End>
+  <PRF.AutoMachineTool.SupplyPower.wdLabel>{0} W</PRF.AutoMachineTool.SupplyPower.wdLabel>
+  <PRF.AutoMachineTool.SupplyPower.PercentLabel>{0}%</PRF.AutoMachineTool.SupplyPower.PercentLabel>
+  <PRF.AutoMachineTool.SupplyPower.CurrentPercent>Текущая скорость работы {0}%</PRF.AutoMachineTool.SupplyPower.CurrentPercent>
+  <PRF.AutoMachineTool.SupplyPower.CellsLabel>{0} клеток</PRF.AutoMachineTool.SupplyPower.CellsLabel>
+  <PRF.AutoMachineTool.SupplyPower.CurrentCellRadius>Текущий радиус работы {0} Cells</PRF.AutoMachineTool.SupplyPower.CurrentCellRadius>
+
+
+
+
+
+
+  <!-- LimitationTab -->
+  <!--<PRF.AutoMachineTool.ProductLimitation.TabName>Настройки</PRF.AutoMachineTool.ProductLimitation.TabName>-->
+  <PRF.AutoMachineTool.ProductLimitation.ValueLabel>Значение лимита</PRF.AutoMachineTool.ProductLimitation.ValueLabel>
+  <PRF.AutoMachineTool.ProductLimitation.ValueLabelTip>Настроить максимальное число предметов / Стаки</PRF.AutoMachineTool.ProductLimitation.ValueLabelTip>
+  <PRF.AutoMachineTool.ProductLimitation.CheckBoxLabel>Активировать лимит</PRF.AutoMachineTool.ProductLimitation.CheckBoxLabel>
+  <PRF.AutoMachineTool.ProductLimitation.CheckBoxLabelTip>Производство прекращается, когда количество продукции и предметов превышает значение лимита. Вы можете обозначить зону. Пожалуйста, проверьте, могут ли объекты размещаться в этой зоне.</PRF.AutoMachineTool.ProductLimitation.CheckBoxLabelTip>
+  <PRF.AutoMachineTool.ProductLimitation.CountStacks>Считать стаки</PRF.AutoMachineTool.ProductLimitation.CountStacks>
+  <PRF.AutoMachineTool.ProductLimitation.CountStacksTip>Считает стаки предметов вместо общего количества этих предметов</PRF.AutoMachineTool.ProductLimitation.CountStacksTip>
+  <PRF.AutoMachineTool.EntierMap>Нет зоны – ДЕЛАТЬ ВСЕГДА</PRF.AutoMachineTool.EntierMap>
+  <PRF.AutoMachineTool.CountZone>Для какой зоны?</PRF.AutoMachineTool.CountZone>
+  <PRF.AutoMachineTool.ProductLimitation.SelectAreaTip>Выберите зону, в которой нужно считать предметы. При выборе "Нет зоны" будут считаться все предметы.</PRF.AutoMachineTool.ProductLimitation.SelectAreaTip>
+
+  <!-- Slaughterhouse SettingTab -->
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.TabName>Настройки</PRF.AutoMachineTool.Slaughterhouse.Setting.TabName>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.Description>Укажите животных для забоя.</PRF.AutoMachineTool.Slaughterhouse.Setting.Description>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.DoSlaughterTip>Нужно ли забивать животных?</PRF.AutoMachineTool.Slaughterhouse.Setting.DoSlaughterTip>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.BondsTip>Нужно ли забивать животных с привязанностью?</PRF.AutoMachineTool.Slaughterhouse.Setting.BondsTip>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.PregnancyTip>Нужно ли забивать беременных животных?</PRF.AutoMachineTool.Slaughterhouse.Setting.PregnancyTip>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.TrainedTip>Нужно ли забивать обученных животных?</PRF.AutoMachineTool.Slaughterhouse.Setting.TrainedTip>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.KeepCountTip>Укажите количество {0} {1}, оставляемых в живых.</PRF.AutoMachineTool.Slaughterhouse.Setting.KeepCountTip>
+  <PRF.AutoMachineTool.Male>Самцы</PRF.AutoMachineTool.Male>
+  <PRF.AutoMachineTool.Female>Самки</PRF.AutoMachineTool.Female>
+  <PRF.AutoMachineTool.None>Нет</PRF.AutoMachineTool.None>
+  <PRF.AutoMachineTool.Adult>Взрослые</PRF.AutoMachineTool.Adult>
+  <PRF.AutoMachineTool.Young>Молодые</PRF.AutoMachineTool.Young>
+  <PRF.AutoMachineTool.RaceName>Вид животного</PRF.AutoMachineTool.RaceName>
+
+  <!-- ItemPuller -->
+  <PRF.AutoMachineTool.Puller.SwitchActiveLabel>Переключить съёмник</PRF.AutoMachineTool.Puller.SwitchActiveLabel>
+  <PRF.NeedToTurnOnPuller>Съёмник неактивен, пока переключатель в положении "Выкл".</PRF.NeedToTurnOnPuller>
+  <PRF.AutoMachineTool.Puller.SwitchActiveDesc>Смена рабочего режима Вкл/Выкл.</PRF.AutoMachineTool.Puller.SwitchActiveDesc>
+  <PRF.AutoMachineTool.Puller.SwitchOutputSideLabel>Переключить сторону выхода.</PRF.AutoMachineTool.Puller.SwitchOutputSideLabel>
+  <PRF.AutoMachineTool.Puller.SwitchOutputSideDesc>Меняет сторону выхода предметов.</PRF.AutoMachineTool.Puller.SwitchOutputSideDesc>
+  <PRF.Puller.TakeForbiddenItems>Снимание запрещённых предметов</PRF.Puller.TakeForbiddenItems>
+  <PRF.Puller.TakeForbiddenItemsDesc>Если включено, съёмник будет также брать запрещённые предметы, что автоматически разрешит их для использования.  Эта настройка действует только для одного съёмника.</PRF.Puller.TakeForbiddenItemsDesc>
+  <PRF.Puller.takeSingleItemsHmm>Брать предметы по одному за раз</PRF.Puller.takeSingleItemsHmm>
+  <PRF.Puller.takeSingleItemsDesc>Если включено, съёмник будет брать только один предмет за раз.  В противном случае он будет брать целые стаки предметов!  Эта настройка действует только для одного съёмника.</PRF.Puller.takeSingleItemsDesc>
+  <!-- FilterTab(puller) -->
+  <PRF.AutoMachineTool.Puller.OutputItemFilter.TabName>Склад</PRF.AutoMachineTool.Puller.OutputItemFilter.TabName>
+  <PRF.AutoMachineTool.Puller.OutputItemFilter.Description>Задать фильтр, какие предметы будут сниматься.</PRF.AutoMachineTool.Puller.OutputItemFilter.Description>
+  <PRF.AutoMachineTool.Puller.FilterCopyFrom>Копировать фильтр</PRF.AutoMachineTool.Puller.FilterCopyFrom>
+
+
+  <!-- AutoMiner -->
+  <PRF.AutoMachineTool.AutoMiner.MineOre>Добывает {0}</PRF.AutoMachineTool.AutoMiner.MineOre>
+
+  <!-- BeltConveyor -->
+  <PRF_DropFromConveyorDesc>Сбросить предмет на конвейере на землю - куда-нибудь рядом с конвейером.</PRF_DropFromConveyorDesc>
+                                                                                 
+  <PRF.Conveyor.Splitter.MustHaveActiveOutput>У разделителей должна быть активирована связь с выходом!</PRF.Conveyor.Splitter.MustHaveActiveOutput>
+                                                                                                                                                                                                                                                                                                                             
+                                                                                                                   
+  <PRF.Conveyor.IsEndOfLineSetting>Удерживающая лента</PRF.Conveyor.IsEndOfLineSetting>
+  <PRF.Conveyor.IsEndOfLineSetting.Desc>Эта лента заканчивает линию или выгружает в сборщик?  Если стоит галочка, то лента будет удерживать предметы, пока они не будут забраны.  Если галочки нет, то лента будет направлять предметы на следующий конвейер или будет сбрасывать их на землю (если там есть место).</PRF.Conveyor.IsEndOfLineSetting.Desc>
+  <PRF.Conveyor.IsAtEndOfLine>Конец линии конвейера</PRF.Conveyor.IsAtEndOfLine>  <!-- 1 line for Inspect Window -->
+  <PRF.AutoMachineTool.Conveyor.DirectionPriority.VeryHigh>очень высокий</PRF.AutoMachineTool.Conveyor.DirectionPriority.VeryHigh>
+  <PRF.AutoMachineTool.Conveyor.DirectionPriority.High>высокий</PRF.AutoMachineTool.Conveyor.DirectionPriority.High>
+  <PRF.AutoMachineTool.Conveyor.DirectionPriority.Normal>обычный</PRF.AutoMachineTool.Conveyor.DirectionPriority.Normal>
+  <PRF.AutoMachineTool.Conveyor.DirectionPriority.Low>низкий</PRF.AutoMachineTool.Conveyor.DirectionPriority.Low>
+  <!-- FilterTab(BeltConveyor) -->
+  <PRF.AutoMachineTool.Conveyor.OutputItemFilter.TabName>Фильтр</PRF.AutoMachineTool.Conveyor.OutputItemFilter.TabName>
+  <PRF.AutoMachineTool.Conveyor.OutputItemFilter.Description>Задать фильтрацию предметов в направлении выхода.</PRF.AutoMachineTool.Conveyor.OutputItemFilter.Description>
+  <PRF.AutoMachineTool.Conveyor.OutputItemFilter.NothingOutputDestination>(Отключено)</PRF.AutoMachineTool.Conveyor.OutputItemFilter.NothingOutputDestination>
+  <PRF.AutoMachineTool.Conveyor.FilterCopyFrom>Копировать фильтр</PRF.AutoMachineTool.Conveyor.FilterCopyFrom>
+</LanguageData>
