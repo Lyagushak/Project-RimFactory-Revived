@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <CultivatorTools_AdjustDirection_Desc>Кликните, чтобы повернуть по часовой стрелке. Текущее направление: {0}</CultivatorTools_AdjustDirection_Desc>
+  <CultivatorTools_SeedsPleaseActiveDesc>ВАЖНО: Поскольку вы используете SeedsPlease, культиватор будет искать в своём радиусе семена для посадки.</CultivatorTools_SeedsPleaseActiveDesc>
+  <CultivatorTools_SeedsPleaseInactiveDesc>Мод SeedsPlease не был обнаружен.  Этой машине не требуются семена.</CultivatorTools_SeedsPleaseInactiveDesc>
+</LanguageData>
